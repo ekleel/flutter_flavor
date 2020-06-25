@@ -1,0 +1,31 @@
+{
+  "name": "flutter_flavor",
+  "version": "0.0.1",
+  "summary": "Flutter plugin for flavors.",
+  "description": "Flutter plugin for flavors.",
+  "homepage": "https://github.com/ekleel/flutter_flavor",
+  "license": {
+    "type": "BSD",
+    "file": "../LICENSE"
+  },
+  "authors": {
+    "Ekleel Team": "info@ekleel.net"
+  },
+  "source": {
+    "http": "https://github.com/ekleel/flutter_flavor"
+  },
+  "source_files": "Classes/**/*",
+  "dependencies": {
+    "FlutterMacOS": [
+
+    ]
+  },
+  "platforms": {
+    "osx": "10.11"
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
+}

@@ -1,0 +1,6 @@
+framework module flutter_flavor {
+  umbrella header "flutter_flavor-umbrella.h"
+
+  export *
+  module * { export * }
+}

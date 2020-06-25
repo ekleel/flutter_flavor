@@ -1,0 +1,25 @@
+name: flutter_flavor
+description: Flutter plugin for flavors.
+# 0.0.y+z is compatible with 1.0.0, if you land a breaking change bump
+# the version to 2.0.0.
+# See more details: https://github.com/flutter/flutter/wiki/Package-migration-to-1.0.0
+version: 0.0.1+7
+homepage: https://github.com/ekleel/flutter_flavor
+
+flutter:
+  plugin:
+    platforms:
+      macos:
+        pluginClass: FlutterFlavorPlugin
+        fileName: flutter_flavor.dart
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+  flutter: ">=1.12.8 <2.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  pedantic: ^1.8.0
