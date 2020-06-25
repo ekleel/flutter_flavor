@@ -1,8 +1,8 @@
-package io.flutter.plugins.urllauncherexample;
+package io.flutter.plugins.flutterflavor;
 
 import io.flutter.embedding.android.FlutterActivity;
 import io.flutter.embedding.engine.FlutterEngine;
-import io.flutter.plugins.urllauncher.FlutterFlavorPlugin;
+import io.flutter.plugins.flutterflavor.FlutterFlavorPlugin;
 
 public class MainActivity extends FlutterActivity {
   @Override

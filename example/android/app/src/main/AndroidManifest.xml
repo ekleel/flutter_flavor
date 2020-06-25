@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="io.flutter.plugins.urllauncherexample">
+  package="io.flutter.plugins.flutterflavor">
 
   <!-- io.flutter.app.FlutterApplication is an android.app.Application that
        calls FlutterMain.startInitialization(this); in its onCreate method.
@@ -14,7 +14,7 @@
       android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection"
       android:hardwareAccelerated="true"
       android:exported="true"
-      android:name="io.flutter.plugins.urllauncherexample.EmbeddingV1Activity"
+      android:name="io.flutter.plugins.flutterflavor.EmbeddingV1Activity"
       android:theme="@android:style/Theme.Black.NoTitleBar"
       android:windowSoftInputMode="adjustResize">
     </activity>

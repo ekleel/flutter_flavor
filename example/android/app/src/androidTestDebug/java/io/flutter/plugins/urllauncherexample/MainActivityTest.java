@@ -1,4 +1,4 @@
-package io.flutter.plugins.urllauncherexample;
+package io.flutter.plugins.flutterflavor;
 
 import androidx.test.rule.ActivityTestRule;
 import dev.flutter.plugins.e2e.FlutterRunner;
