@@ -15,7 +15,7 @@ public class FlutterFlavorPlugin: NSObject, FlutterPlugin {
  }
 
  public func handle(_ call: FlutterMethodCall, result: @escaping FlutterResult) {
-   let flavor = Bundle.main.infoDictionary?["Flavor"]
+   let flavor: String = Bundle.main.infoDictionary?["Flavor"]
 
    print("FlutterFlavorPlugin handle flavor:", flavor)
 
